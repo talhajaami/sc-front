@@ -16,7 +16,7 @@ const Main = () => {
   const navigate = useNavigate();
   const { chartWeeklyTxsByDate } = useSelector((state) => state.chartData);
   const {
-    tokenData,
+    // tokenData,
     totalTxsNum,
     allAddressArr,
     latestBlocks,
@@ -26,7 +26,7 @@ const Main = () => {
   } = useSelector((state) => state.mainpageData);
 
   const getCardSectionFunc = () => {
-    dispatch(getTokenData.getTokenDataApi());
+    // dispatch(getTokenData.getTokenDataApi());
     dispatch(dbTotalTxsNum.dbTotalTxsNumApi());
     dispatch(dbAddressArr.dbAddressArrApi());
     dispatch(dbLatestBlocks.dbLatestBlocksApi());
@@ -131,9 +131,10 @@ const Main = () => {
             <div className="block-col1">
               <div className="block-col1-row1">
                 <h1>SC Price</h1>
-                {tokenData != null ? (
+                {/* {tokenData != null ? (
                   <h3 style={{ color: "white" }}>$ {tokenData.last}</h3>
-                ) : null}
+                ) : null} */}
+                0
               </div>
               <div className="block-col1-row2">
                 <h1>All Address</h1>
