@@ -83,7 +83,7 @@ const AllBlocksPage = () => {
                           {data.blocknumber}
                         </span>
                       </td>
-                      <td className="td-center">{allBlocksTimeago[index]}</td>
+                      <td className="td-center">{allBlocksTimeago[index].toLocaleString()}</td>
                       <td className="td-center">{data.transaction_length}</td>
                       <td className="td-left">{data.blockhash}</td>
                       <td className="td-right">0 SC</td>
