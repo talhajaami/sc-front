@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="foo">
-        Copyright © 2025. STABLE COIN BANK NETWORK. All Rights Reserved.
+        Copyright © 2025. STABLE COIN BANK TOKEN. All Rights Reserved.
       </div>
     </footer>
   );
