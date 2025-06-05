@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const dbApi = axios.create({
-    baseURL : "http://localhost:3001",
+    baseURL : "https://api.stablecoin.life",
     //baseURL : "https://dev-explorer-server.gen.foundation",
     headers : {'content-type' : "application/json"}
 })
